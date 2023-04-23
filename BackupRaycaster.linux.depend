@@ -1,0 +1,307 @@
+# depslib dependency file v1.0
+1629917061 source:/home/thegogus/CPP/BackupRaycaster/init.cpp
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<cstdio>
+	<string>
+	"init.h"
+
+1629917061 /home/thegogus/CPP/BackupRaycaster/init.h
+	<SDL2/SDL.h>
+
+1630413835 source:/home/thegogus/CPP/BackupRaycaster/main.cpp
+	<cstdio>
+	<cstdlib>
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+	<vector>
+	<math.h>
+	"init.h"
+	"shader.h"
+	"mesh.h"
+	"transform.h"
+	"shapes.h"
+	"player.h"
+	"ray.h"
+
+1629917061 /home/thegogus/CPP/BackupRaycaster/shader.h
+	<GL/glew.h>
+	<string>
+	"transform.h"
+
+1629999003 /home/thegogus/CPP/BackupRaycaster/transform.h
+	<glm/glm.hpp>
+
+1630413409 /home/thegogus/CPP/BackupRaycaster/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	<vector>
+
+1630413242 /home/thegogus/CPP/BackupRaycaster/shapes.h
+	<glm/glm.hpp>
+	<vector>
+	"mesh.h"
+	"transform.h"
+	"shader.h"
+
+1630413506 source:/home/thegogus/CPP/BackupRaycaster/mesh.cpp
+	<glm/glm.hpp>
+	<cstdio>
+	<vector>
+	"mesh.h"
+
+1630076150 source:/home/thegogus/CPP/BackupRaycaster/shader.cpp
+	<cstdlib>
+	<string>
+	<fstream>
+	<glm/glm.hpp>
+	"transform.h"
+	"shader.h"
+
+1630413336 source:/home/thegogus/CPP/BackupRaycaster/shapes.cpp
+	<glm/glm.hpp>
+	<vector>
+	"mesh.h"
+	"shapes.h"
+	"shader.h"
+	"transform.h"
+
+1629999022 source:/home/thegogus/CPP/BackupRaycaster/transform.cpp
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"./transform.h"
+
+1630413355 source:/home/thegogus/CPP/BackupRaycaster/player.cpp
+	<vector>
+	<glm/glm.hpp>
+	"player.h"
+
+1630257461 /home/thegogus/CPP/BackupRaycaster/player.h
+	<vector>
+	<glm/glm.hpp>
+	"shapes.h"
+
+1630411803 source:/home/thegogus/CPP/BackupRaycaster/ray.cpp
+	<glm/glm.hpp>
+	"ray.h"
+	"shapes.h"
+
+1630411747 /home/thegogus/CPP/BackupRaycaster/ray.h
+	<glm/glm.hpp>
+	<vector>
+	"shapes.h"
+
+1653254108 source:/home/thegogus/CPP/3DEngine2/source/init.cpp
+	"init.h"
+
+1653218377 /home/thegogus/CPP/3DEngine2/source/init.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<cstdio>
+	<string>
+
+1653251375 source:/home/thegogus/CPP/3DEngine2/source/mesh.cpp
+	"mesh.h"
+	"obj_loader.h"
+
+1653250455 /home/thegogus/CPP/3DEngine2/source/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	<vector>
+	<cstdio>
+	"obj_loader.h"
+
+1653245503 source:/home/thegogus/CPP/3DEngine2/source/shader.cpp
+	"shader.h"
+
+1653245439 /home/thegogus/CPP/3DEngine2/source/shader.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+	<cstdlib>
+	<fstream>
+	"transform.h"
+	"camera.h"
+
+1653218456 /home/thegogus/CPP/3DEngine2/source/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1653218461 source:/home/thegogus/CPP/3DEngine2/source/transform.cpp
+	"./transform.h"
+
+1653254176 source:/home/thegogus/CPP/3DEngine2/source/main.cpp
+	<SDL2/SDL.h>
+	<cstdio>
+	"init.h"
+	"mesh.h"
+	"shader.h"
+	"transform.h"
+	"texture.h"
+	"camera.h"
+
+1653240304 /home/thegogus/CPP/3DEngine2/source/texture.h
+	<string>
+	<GL/glew.h>
+	<cassert>
+	"stb_image.h"
+
+1653237162 /home/thegogus/CPP/3DEngine2/source/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1653241706 source:/home/thegogus/CPP/3DEngine2/source/texture.cpp
+	"texture.h"
+
+1653240396 source:/home/thegogus/CPP/3DEngine2/source/stb_image.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdint.h>
+
+1653248672 /home/thegogus/CPP/3DEngine2/source/camera.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1653249085 source:/home/thegogus/CPP/3DEngine2/source/camera.cpp
+	"camera.h"
+
+1653250112 /home/thegogus/CPP/3DEngine2/source/obj_loader.h
+	<glm/glm.hpp>
+	<vector>
+	<string>
+
+1653250099 source:/home/thegogus/CPP/3DEngine2/source/obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1656006829 source:c:\cpp\3dengine2\source\camera.cpp
+	"camera.h"
+
+1656006829 c:\cpp\3dengine2\source\camera.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1656006829 source:c:\cpp\3dengine2\source\init.cpp
+	"init.h"
+
+1656006829 c:\cpp\3dengine2\source\init.h
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<cstdio>
+	<string>
+
+1656006829 source:c:\cpp\3dengine2\source\main.cpp
+	<SDL2/SDL.h>
+	<cstdio>
+	"init.h"
+	"mesh.h"
+	"shader.h"
+	"transform.h"
+	"texture.h"
+	"camera.h"
+
+1656006829 c:\cpp\3dengine2\source\mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	<vector>
+	<cstdio>
+	"obj_loader.h"
+
+1656006829 c:\cpp\3dengine2\source\obj_loader.h
+	<glm/glm.hpp>
+	<vector>
+	<string>
+
+1656006829 c:\cpp\3dengine2\source\shader.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+	<cstdlib>
+	<fstream>
+	"transform.h"
+	"camera.h"
+
+1656006829 c:\cpp\3dengine2\source\transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1656006829 c:\cpp\3dengine2\source\texture.h
+	<string>
+	<GL/glew.h>
+	<cassert>
+	"stb_image.h"
+
+1656006829 c:\cpp\3dengine2\source\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1656006829 source:c:\cpp\3dengine2\source\mesh.cpp
+	"mesh.h"
+	"obj_loader.h"
+
+1656006829 source:c:\cpp\3dengine2\source\obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1656006829 source:c:\cpp\3dengine2\source\shader.cpp
+	"shader.h"
+
+1656006829 source:c:\cpp\3dengine2\source\stb_image.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdint.h>
+
+1656006829 source:c:\cpp\3dengine2\source\texture.cpp
+	"texture.h"
+
+1656006829 source:c:\cpp\3dengine2\source\transform.cpp
+	"./transform.h"
+
